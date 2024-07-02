@@ -40,7 +40,8 @@ h1 {
   height: auto;
   overflow: hidden;
   border-top: 1px black solid;
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
+  margin: 0 10px;
 }
 
 .r_title {
@@ -85,4 +86,39 @@ h1 {
 .date {
   float: right;
   padding: 5px 10px 5px 10px;
+}
+
+@media (max-width: 767px) {
+  * {
+    word-spacing: 2px;
+  }
+  #header {
+    padding: 30px 0 30px 0;
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .research {
+    padding: 50px 0;
+    margin: 0 50px;
+  }
+  .r_title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .r_text p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 15px;
+  }
+  .r_text img {
+    max-width: 80%;
+  }
+  .r_etc p {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }/*# sourceMappingURL=R_style1.css.map */
